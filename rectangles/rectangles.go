@@ -2,21 +2,21 @@ package main
 
 import "fmt"
 
-type Rect struct {
+type Rectangle struct {
 	width  int
 	height int
 }
 
-func (r Rect) area() int {
+func (r Rectangle) Area() int {
 	return r.width * r.height
 }
 
-func area(r Rect) int {
+func Area(r Rectangle) int {
 	return r.width * r.height
 }
 
 func main() {
-	r := Rect{width: 10, height: 5}
-	fmt.Printf("area: %d\n", r.area())
-	fmt.Printf("area as a function: %d\n", area(r))
+	r := Rectangle{width: 10, height: 5}
+	fmt.Printf("area: %d\n", r.Area())
+	fmt.Printf("area as a function: %d\n", Area(r))
 }
