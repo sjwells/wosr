@@ -32,7 +32,7 @@ Calculates the area of a rectangle, two ways
 Kicks off a separate go routine. Doesn't wait for it.
 
 ## concurrency
-Kicks of five separate go routines. Waits for the first one that says it's finished (uses channels)
+Kicks off five separate go routines. Waits for the first one that says it's finished (uses channels)
 
 ## webservice
 A small webservice that returns author information as json. Make a request using:
